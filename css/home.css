@@ -1,0 +1,58 @@
+body {
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: white;
+}
+
+h1 {
+  text-decoration: none;
+  color: black;
+  font-family: Dia;
+  margin-top: 400px;
+  margin-bottom:5px;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  color: black;
+  font-family: Dia;
+  margin-top: 5px;
+  margin-bottom:400px;
+  text-align: center;
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 65%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-decoration: none;
+    color: black;
+    font-family: Dia;
+    margin-top: 400px;
+    margin-bottom:5px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  h2 {
+    color: black;
+    font-family: Dia;
+    margin-top: 5px;
+    margin-bottom:400px;
+    text-align: center;
+    font-size: 30px;
+  }
+}
